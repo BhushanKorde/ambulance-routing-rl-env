@@ -1,0 +1,11 @@
+[project]
+name = "ambulance-routing-env"
+version = "0.1.0"
+description = "Emergency Ambulance Routing RL Environment using OpenEnv"
+authors = [
+    { name = "Bhushan Korde" }
+]
+dependencies = []
+
+[tool.openenv]
+env_class = "env.ambulance_env.AmbulanceEnv"
