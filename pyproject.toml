@@ -5,7 +5,15 @@ description = "Emergency Ambulance Routing RL Environment using OpenEnv"
 authors = [
     { name = "Bhushan Korde" }
 ]
-dependencies = []
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "pydantic",
+    "openenv-core>=0.2.0"
+]
+
+[project.scripts]
+server = "server.app:main"
 
 [tool.openenv]
 env_class = "env.ambulance_env.AmbulanceEnv"
