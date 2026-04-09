@@ -1,0 +1,13 @@
+name: ambulance-routing-env
+version: 1.0
+
+entrypoint: server.app:app
+
+tasks:
+  - name: easy
+  - name: medium
+  - name: hard
+
+observation_space: AmbulanceObservation
+action_space: AmbulanceAction
+reward_range: [0.01, 0.99]
