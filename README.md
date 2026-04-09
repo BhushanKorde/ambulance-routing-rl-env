@@ -272,4 +272,4 @@ The `inference.py` script:
 
 ## 🏁 License
 
-MIT License
+MIT License.
